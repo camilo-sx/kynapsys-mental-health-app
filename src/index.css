@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Gilmer';
+  src: url('./assets/fonts/Gilmer Regular.otf') format('opentype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilmer';
+  src: url('./assets/fonts/Gilmer Medium.otf') format('opentype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilmer';
+  src: url('./assets/fonts/Gilmer Bold.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilmer';
+  src: url('./assets/fonts/Gilmer Heavy.otf') format('opentype');
+  font-weight: 800; /* Heavy */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilmer';
+  src: url('./assets/fonts/Gilmer Light.otf') format('opentype');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+:root {
+  font-family: 'Gilmer', sans-serif;
+  line-height: auto;
+  font-weight: normal;
+  color-scheme: light;
+  color: #ea7135;
+  background-color: #fef6ee;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.light-text {
+  font-weight: 300; /* Gilmer Light */
+}
+
+.medium-text {
+  font-weight: 500; /* Gilmer Medium */
+}
+
+.bold-text {
+  font-weight: 700; /* Gilmer Bold */
+}
+
+.heavy-text {
+  font-weight: 800; /* Gilmer Heavy */
+}
+
+a {
+  font-weight: 500;
+  color: #ed864a;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #b53b19;
+}
+
+body {
+  font-family: 'Gilmer', sans-serif;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  font-family: 'Gilmer', sans-serif;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #ed864a;
+  color: white;
+  border: none;
+  border-radius: 80px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  background-color: #b53b19;
+}
+
